@@ -12,4 +12,8 @@ def test_bear_name
   assert_equal("Wojtek", @bear.name)
 end
 
+def test_bear_type
+  assert_equal("Brown", @bear.type)
+end
+
 end
